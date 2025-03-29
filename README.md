@@ -1,6 +1,4 @@
 # yolov8_ros2
-Used in the 5th semester [Robotics LLM-Planner-for-Bimanual-object-mnipulation project](https://github.com/andreasHovaldt/LLM-Planner-for-Bimanual-object-manipulation). 
-Package provides functionalities for using the Intel Realsense D435 camera combined with the yoloV8 object segmentation model implemented using ROS2.
 
 ## Required libraries
 ### Python3
@@ -8,9 +6,6 @@ Package provides functionalities for using the Intel Realsense D435 camera combi
 pip install open3d
 pip install ultralytics
 ```
-
-## Quick Start
-Install [colcon](https://docs.ros.org/en/humble/Tutorials/Colcon-Tutorial.html#install-colcon) and [rosdep](https://docs.ros.org/en/crystal/Installation/Linux-Install-Binary.html#installing-and-initializing-rosdep), then build this repository:
 
 ```shell
 mkdir -p ~/ros2_ws/src && cd ~/ros2_ws/src
